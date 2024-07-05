@@ -25,6 +25,7 @@ var corsOptions = {
     origin:  [
       process.env.REACT_URL1,
       process.env.REACT_URL2,
+      process.env.DEPLOYMENT_URL
   ],
     optionsSuccessStatus:200
   }
