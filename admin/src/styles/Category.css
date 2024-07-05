@@ -1,0 +1,48 @@
+.category{
+    flex: 4;
+}
+
+.catContainer{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catLeft{
+    flex: 1;
+}
+
+.catRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.catRight input{
+    padding: 10px;
+    width: 205px;
+}
+
+.imgDiv{
+    height: 300px;
+    width: 300px;
+}
+
+.catUploadImg{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.catButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    width: 200px;
+}

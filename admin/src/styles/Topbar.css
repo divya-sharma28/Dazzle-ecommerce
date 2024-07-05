@@ -1,0 +1,51 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 5px 0;
+    box-shadow: 5px 5px 10px rgb(210, 210, 210);
+  }
+
+  .topbar h3{
+    cursor: pointer;
+    margin:0 25px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+  }
+  
+  .topRight{
+      display: flex;
+      align-items: center;
+  }
+  
+  .greet{
+    padding: 5px;
+    border-radius: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  .topAvatar{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  
